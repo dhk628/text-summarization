@@ -1,5 +1,7 @@
-.venv/
-data/
-output/
-test.*
 .vscode/
+.venv/
+.env
+__pycache__
+data/
+outputs/
+test.*
