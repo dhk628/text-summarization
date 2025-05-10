@@ -6,4 +6,4 @@ As a PhD student and a data scientist, I have to read numerous papers, and so a 
 
 # Fine-Tuning a LLM
 
-For the first step, I will practice fine-tuning a LLM. For this section, I will roughly follow this [Kaggle tutorial](https://www.kaggle.com/code/lusfernandotorres/text-summarization-with-large-language-models) and fine-tune BART on dialogues. This is (being) done in `dialogue.ipynb`.
+For the first step, I will practice fine-tuning a LLM. For this section, I will roughly follow this [Kaggle tutorial](https://www.kaggle.com/code/lusfernandotorres/text-summarization-with-large-language-models) and fine-tune BART on dialogues. This is (being) done in [`dialogue.ipynb`](dialogue.ipynb). The outputs of the notebook with the Plotly plots can be viewed [here](https://dhk628.github.io/text-summarization/).
