@@ -7511,13 +7511,34 @@ a.anchor-link {
 <!-- End of mermaid configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
 <main>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=91355562">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="Table-of-Contents">Table of Contents<a class="anchor-link" href="#Table-of-Contents">¶</a></h1><ol>
+<li><a href="#necessary-imports">Necessary Imports</a></li>
+<li><a href="#loading-data">Loading Data</a></li>
+<li><a href="#exploratory-data-analysis">Exploratory Data Analysis</a></li>
+<li><a href="#data-preprocessing">Data Preprocessing</a></li>
+<li><a href="#using-hugging-face">Using Hugging Face</a></li>
+<li><a href="#pre-trained-model">Pre-Trained Model</a></li>
+<li><a href="#evaluation-metrics">Evaluation Metrics</a></li>
+<li><a href="#fine-tuning">Fine-Tuning</a></li>
+<li><a href="#next-steps">Next-Steps</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d1f427c6">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Necessary-imports">Necessary imports<a class="anchor-link" href="#Necessary-imports">¶</a></h1>
+<h1 id="Necessary-Imports-">Necessary Imports <a name="necessary-imports"></a><a class="anchor-link" href="#Necessary-Imports-">¶</a></h1>
 </div>
 </div>
 </div>
@@ -7648,7 +7669,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Loading-Data">Loading Data<a class="anchor-link" href="#Loading-Data">¶</a></h1>
+<h1 id="Loading-Data-">Loading Data <a name="loading-data"></a><a class="anchor-link" href="#Loading-Data-">¶</a></h1>
 </div>
 </div>
 </div>
@@ -7941,7 +7962,7 @@ dtype: object
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Exploratory-Data-Analysis">Exploratory Data Analysis<a class="anchor-link" href="#Exploratory-Data-Analysis">¶</a></h1>
+<h1 id="Exploratory-Data-Analysis-">Exploratory Data Analysis <a name="exploratory-data-analysis"></a><a class="anchor-link" href="#Exploratory-Data-Analysis-">¶</a></h1>
 </div>
 </div>
 </div>
@@ -8815,7 +8836,7 @@ if (outputEl) {{
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Data-Preprocessing">Data Preprocessing<a class="anchor-link" href="#Data-Preprocessing">¶</a></h1><p>Note that in the Dialogue 3-Gram, there is a phrase "file_photo file_photo file_photo." This is presumably where there was a photo in the original text, and the tag remained in the dataset. Let us look at a couple of examples where "file_photo" appears in the dialogue:</p>
+<h1 id="Data-Preprocessing-">Data Preprocessing <a name="data-preprocessing"></a><a class="anchor-link" href="#Data-Preprocessing-">¶</a></h1><p>Note that in the Dialogue 3-Gram, there is a phrase "file_photo file_photo file_photo." This is presumably where there was a photo in the original text, and the tag remained in the dataset. Let us look at a couple of examples where "file_photo" appears in the dialogue:</p>
 </div>
 </div>
 </div>
@@ -9096,7 +9117,7 @@ Arthur: that actually looks nice, should I reach out directly to your friend or 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Using-Hugging-Face">Using Hugging Face<a class="anchor-link" href="#Using-Hugging-Face">¶</a></h1>
+<h1 id="Using-Hugging-Face-">Using Hugging Face <a name="using-hugging-face"></a><a class="anchor-link" href="#Using-Hugging-Face-">¶</a></h1>
 </div>
 </div>
 </div>
@@ -9181,7 +9202,7 @@ Dataset({
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Pre-Trained-Model">Pre-Trained Model<a class="anchor-link" href="#Pre-Trained-Model">¶</a></h1><p>As in the tutorial, we will be using a version of BART that has been trained on news articles for summarization, provided here: <a href="https://huggingface.co/facebook/bart-large-xsum">bart-large-xsum</a>. For inference, we can use the <code>pipeline</code> wrapper from Hugging Face, as follows:</p>
+<h1 id="Pre-Trained-Model-">Pre-Trained Model <a name="pre-trained-model"></a><a class="anchor-link" href="#Pre-Trained-Model-">¶</a></h1><p>As in the tutorial, we will be using a version of BART that has been trained on news articles for summarization, provided here: <a href="https://huggingface.co/facebook/bart-large-xsum">bart-large-xsum</a>. For inference, we can use the <code>pipeline</code> wrapper from Hugging Face, as follows:</p>
 </div>
 </div>
 </div>
@@ -9890,7 +9911,7 @@ Dataset({
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Evaluation-Metrics">Evaluation Metrics<a class="anchor-link" href="#Evaluation-Metrics">¶</a></h1>
+<h1 id="Evaluation-Metrics-">Evaluation Metrics <a name="evaluation-metrics"></a><a class="anchor-link" href="#Evaluation-Metrics-">¶</a></h1>
 </div>
 </div>
 </div>
@@ -9974,6 +9995,17 @@ Dataset({
     <span class="k">return</span> <span class="p">{</span><span class="n">k</span><span class="p">:</span> <span class="nb">round</span><span class="p">(</span><span class="n">v</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">result</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
 </pre></div>
 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d0ed5955">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="Fine-Tuning-">Fine-Tuning <a name="fine-tuning"></a><a class="anchor-link" href="#Fine-Tuning-">¶</a></h1>
 </div>
 </div>
 </div>
@@ -10353,6 +10385,17 @@ Beatrice is in town, shopping. She will buy a scarf for Leo.
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>These are much better summaries than before, although the model-generated summary for the first example is slightly incorrect.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a993ee60">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="Next-Steps-">Next Steps <a name="next-steps"></a><a class="anchor-link" href="#Next-Steps-">¶</a></h1><p>Next, I will try more efficient fine-tuning methods such as layer freezing or LoRA.</p>
 </div>
 </div>
 </div>
