@@ -16,7 +16,7 @@ The docker then can be run using
 ```
 docker run --name dialogue-summarizer -p 8501:8501 dialogue-summarizer
 ```
-This makes the Streamlit app available on `localhost:8501/`.
+This makes the Streamlit app available on `localhost:8501`.
 
 Here is an example of the results of the model. The original dialogue is:
 >Beatrice: I am in town, shopping. They have nice scarfs in the shop next to the church. Do you want one?
